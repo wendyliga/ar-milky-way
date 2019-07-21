@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8607525B22E2DC5600E05CB3 /* SCNVector3+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607525A22E2DC5600E05CB3 /* SCNVector3+Extension.swift */; };
+		8607525F22E415DD00E05CB3 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607525E22E415DD00E05CB3 /* Int+Extension.swift */; };
 		86F78E9C22DB0F7B00A2B764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F78E9B22DB0F7B00A2B764 /* AppDelegate.swift */; };
 		86F78E9E22DB0F7B00A2B764 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F78E9D22DB0F7B00A2B764 /* art.scnassets */; };
 		86F78EA022DB0F7B00A2B764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F78E9F22DB0F7B00A2B764 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8607525A22E2DC5600E05CB3 /* SCNVector3+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extension.swift"; sourceTree = "<group>"; };
+		8607525E22E415DD00E05CB3 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		86F78E9822DB0F7B00A2B764 /* ar-milky-way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar-milky-way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F78E9B22DB0F7B00A2B764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86F78E9D22DB0F7B00A2B764 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8607525922E2DC4600E05CB3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8607525A22E2DC5600E05CB3 /* SCNVector3+Extension.swift */,
+				8607525E22E415DD00E05CB3 /* Int+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		86F78E8F22DB0F7B00A2B764 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		86F78E9A22DB0F7B00A2B764 /* ar-milky-way */ = {
 			isa = PBXGroup;
 			children = (
+				8607525922E2DC4600E05CB3 /* Extension */,
 				86F78E9B22DB0F7B00A2B764 /* AppDelegate.swift */,
 				86F78E9D22DB0F7B00A2B764 /* art.scnassets */,
 				86F78E9F22DB0F7B00A2B764 /* ViewController.swift */,
@@ -139,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8607525B22E2DC5600E05CB3 /* SCNVector3+Extension.swift in Sources */,
+				8607525F22E415DD00E05CB3 /* Int+Extension.swift in Sources */,
 				86F78EA022DB0F7B00A2B764 /* ViewController.swift in Sources */,
 				86F78E9C22DB0F7B00A2B764 /* AppDelegate.swift in Sources */,
 			);
