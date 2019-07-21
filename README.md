@@ -2,6 +2,13 @@
 
 Simple Milky Way in AR using ARKit
 
+Learning material at
+
+![Tokopedia DevCamp](https://ecs7.tokopedia.net/microsite-production/dev-camp/assets/img/logo.png)
+
+learn more at [Tokopedia DevCamp](https://www.tokopedia.com/dev-camp/)
+
+# Screenshot
 ![Sample](https://raw.githubusercontent.com/wendyliga/ar-milky-way/master/screenshot/sample.jpeg)
 
 # Lisence
